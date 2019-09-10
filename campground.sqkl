@@ -1,0 +1,10 @@
+CREATE DATABASE campgrounds (
+	id serial PRIMARY KEY,
+	name text NOT NULL,
+	closest_town text,
+	description text,
+	restrooms text
+)
+
+INSERT INTO campgrounds (name, closest_town, description, restrooms) VALUES
+('Saddle', 'Cloudcroft, NM', 'Saddle Campground offers 16 single units for tents or RV's. Mixed conifer/aspen forest sites provide southern NM escape from summer heat on the desert floor Tables, fire rings, parking spurs, gray water sumps, toilets, showers, central garbage depository, plus interpretive trails. RVs are limited to a maximum of 30' in length.')
